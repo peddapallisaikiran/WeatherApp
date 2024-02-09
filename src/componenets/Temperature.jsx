@@ -12,7 +12,7 @@ function Temperature({ setCity, stats }) {
           className="bg-slate-600 border border-slate-500 text-slate-200 placeholder-slate-400 text-md focus:border-slate-400 block w-60 p-2 focus:outline-none"
           placeholder="Enter Your City Name"
           onChange={handleCityChange}
-          defaultValue="New Delhi"
+          defaultValue="Hyderabad" // Here we can Change the input default value as we known 
         />
         <div className="m-4">
           <svg

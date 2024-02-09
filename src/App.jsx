@@ -3,7 +3,7 @@ import Temperature from "./componenets/Temperature";
 import Highlights from "./componenets/Highlights";
 
 function App() {
-  const [city, setCity] = useState("New Delhi");
+  const [city, setCity] = useState("Hyderabad");
   const [weatherData, setWeatherData] = useState(null);
 
   useEffect(() => {
@@ -40,7 +40,7 @@ function App() {
           />
         )}
       </div>
-      <div className="w-1/3 h-1/3 mt-40 p-10 grid grid-cols-2 gap-6">
+      <div className="w-1/3 h-1/3 mt-40 p-10 grid grid-cols-2 gap-8">
         <h1 className="text-slate-200 text-2xl col-span-2">
           Today's Highlights
         </h1>
